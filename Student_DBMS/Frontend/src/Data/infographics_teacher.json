@@ -1,0 +1,177 @@
+{
+  "sections": ["Students", "Courses", "Department", "Non-Teaching Staff", "Roles", "Salary", "Teaching Staff"],
+  "tableName": ["student", "courses", "department", "non_teaching_staff", "roles", "salary", "teaching_staff"],
+  "tables": {
+    "student": [
+      { "id": "stud_erp", "label": "ERP" },
+      { "id": "course_id", "label": "Course ID" },
+      { "id": "name", "label": "Name" },
+      { "id": "roll_no", "label": "Roll No" }
+    ],
+    "courses": [
+      { "id": "course_id", "label": "Course ID" },
+      { "id": "course_name", "label": "Course Name" },
+      { "id": "completion_time", "label": "Competion Time" }
+    ],
+    "department": [
+      { "id": "dept_id", "label": "Dept ID" },
+      { "id": "name", "label": "Name" }
+    ],
+    "non_teaching_staff": [
+      { "id": "erp", "label": "ERP" },
+      { "id": "classification", "label": "Classification" }
+    ],
+    "roles": [
+      { "id": "role_id", "label": "Role ID" },
+      { "id": "erp", "label": "ERP" },
+      { "id": "role_name", "label": "Role Name" }
+    ],
+    "salary": [
+      { "id": "erp", "label": "ERP" },
+      { "id": "provident_fund", "label": "Provident Fund" },
+      { "id": "forced_saving", "label": "Forced Saving" },
+      { "id": "net_amt", "label": "Net Amount" }
+    ],
+    "teaching_staff": [
+      { "id": "erp", "label": "ERP" },
+      { "id": "course_id", "label": "course_id" },
+      { "id": "designation", "label": "Designation" }
+    ]
+  },
+  "forms": {
+    "student": {
+      "stud_erp": "input",
+      "course_id": "input",
+      "name": "input",
+      "roll_no": "input"
+    },
+    "student_data": {
+      "stud_erp": {
+        "label": "ERP",
+        "name": "stud_erp"
+      },
+      "course_id": {
+        "label": "Course",
+        "name": "course_id"
+      },
+      "name": {
+        "label": "Name",
+        "name": "name"
+      },
+      "roll_no": {
+        "label": "Roll No",
+        "name": "roll_no"
+      }
+    },
+    "courses": {
+      "course_id": "input",
+      "course_name": "input",
+      "completion_time": "input"
+    },
+    "courses_data": {
+      "course_id": {
+        "label": "Course ID",
+        "name": "course_id"
+      },
+      "course_name": {
+        "label": "Course Name",
+        "name": "course_name"
+      },
+      "completion_time": {
+        "label": "Completion Time",
+        "name": "completion_time"
+      }
+    },
+    "department": {
+      "dept_id": "input",
+      "name": "input"
+    },
+    "department_data": {
+      "dept_id": {
+        "label": "Dept ID",
+        "name": "dept_id"
+      },
+      "name": {
+        "label": " Name",
+        "name": "name"
+      }
+    },
+    "non_teaching_staff": {
+      "erp": "input",
+      "classification": "input"
+    },
+    "non_teaching_staff_data": {
+      "erp": {
+        "label": "ERP",
+        "name": "erp"
+      },
+      "classification": {
+        "label": "Classification",
+        "name": "classification"
+      }
+    },
+    "roles": {
+      "erp": "input",
+      "provident_fund": "input",
+      "forced_saving": "input",
+      "net_amt": "input"
+    },
+    "roles_data": {
+      "role_id": {
+        "label": "Role ID",
+        "name": "role_id"
+      },
+      "erp": {
+        "label": "ERP",
+        "name": "erp"
+      },
+      "role_name": {
+        "label": "Role Name",
+        "name": "role_name"
+      }
+    },
+    "salary": {
+      "erp": "input",
+      "provident_fund": "input",
+      "forced_fund": "input",
+      "net_amt": "input"
+    },
+    "salary_data": {
+      "erp": {
+        "label": "ERP",
+        "name": "erp"
+      },
+      "provident_fund": {
+        "label": "Provident Funds",
+        "name": "provident_fund"
+      },
+      "forced_saving": {
+        "label": "Forced Funds",
+        "name": "forced_fund"
+      },
+      "net_amt": {
+        "label": "Net Amount",
+        "name": "net_amt"
+      }
+    },
+    "teaching_staff": {
+      "erp": "input",
+      "course_id": "input",
+      "designation": "input"
+    },
+    "teaching_staff_data": {
+      "erp": {
+        "label": "ERP",
+        "name": "erp"
+      },
+      "course_id": {
+        "label": "Course ID",
+        "name": "course_id"
+      },
+      "designation": {
+        "label": "Designation",
+        "name": "designation"
+      }
+    }
+  }
+}

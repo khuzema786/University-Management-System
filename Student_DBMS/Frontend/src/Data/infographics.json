@@ -1,0 +1,236 @@
+{
+  "sections": ["Courses", "Users", "Department", "Faculty", "Student", "Attendance", "Fees", "Exam"],
+  "tableName": ["courses", "users", "department", "faculty", "student", "attendance", "fees", "exam"],
+  "tables": {
+    "courses": [
+      { "id": "course_id", "label": "Course ID" },
+      { "id": "course_name", "label": "Course Name" },
+      { "id": "sem", "label": "SEM" },
+      { "id": "year", "label": "Year" }
+    ],
+    "users": [
+      { "id": "erp", "label": "ERP" },
+      { "id": "password", "label": "Password" },
+      { "id": "email_id", "label": "Email ID" }
+    ],
+    "department": [
+      { "id": "dept_id", "label": "Dept ID" },
+      { "id": "name", "label": "Name" }
+    ],
+    "faculty": [
+      { "id": "erp", "label": "ERP" },
+      { "id": "course_id", "label": "Course ID" },
+      { "id": "dept_id", "label": "Dept ID" },
+      { "id": "name", "label": "Name" }
+    ],
+    "student": [
+      { "id": "erp", "label": "ERP" },
+      { "id": "course_id", "label": "Course ID" },
+      { "id": "name", "label": "Name" },
+      { "id": "roll_no", "label": "Roll NO" }
+    ],
+    "attendance": [
+      { "id": "attendance_id", "label": "Attendance ID" },
+      { "id": "erp", "label": "ERP" },
+      { "id": "course_id", "label": "Course ID" },
+      { "id": "days_attended", "label": "Days Attendance" }
+    ],
+    "fees": [
+      { "id": "transaction_id", "label": "Transaction ID" },
+      { "id": "erp", "label": "ERP" },
+      { "id": "transaction_amount", "label": "Transaction Amount" }
+    ],
+    "exam": [
+      { "id": "exam_id", "label": "Exam ID" },
+      { "id": "erp", "label": "ERP" },
+      { "id": "course_id", "label": "Course ID" },
+      { "id": "marks", "label": "Marks" },
+      { "id": "exam_fee", "label": "Exam Fee" },
+      { "id": "exam_type", "label": "Exam Type" }
+    ]
+  },
+  "forms": {
+    "courses": {
+      "course_id": "input",
+      "course_name": "input",
+      "sem": "input",
+      "year": "input"
+    },
+    "courses_data": {
+      "course_id": {
+        "label": "Course ID",
+        "name": "course_id"
+      },
+      "course_name": {
+        "label": "Course Name",
+        "name": "course_name"
+      },
+      "sem": {
+        "label": "SEM",
+        "name": "sem"
+      },
+      "year": {
+        "label": "Year",
+        "name": "year"
+      }
+    },
+    "users": {
+      "erp": "input",
+      "password": "input",
+      "email_id": "input"
+    },
+    "users_data": {
+      "erp": {
+        "label": "ERP",
+        "name": "erp"
+      },
+      "password": {
+        "label": "Password",
+        "name": "password"
+      },
+      "email_id": {
+        "label": "Email ID",
+        "name": "email_id"
+      }
+    },
+    "department": {
+      "dept_id": "input",
+      "name": "input"
+    },
+    "department_data": {
+      "dept_id": {
+        "label": "Dept ID",
+        "name": "dept_id"
+      },
+      "name": {
+        "label": " Name",
+        "name": "name"
+      }
+    },
+    "faculty": {
+      "erp": "input",
+      "course_id": "input",
+      "dept_id": "input",
+      "name": "input"
+    },
+    "faculty_data": {
+      "erp": {
+        "label": "ERP",
+        "name": "erp"
+      },
+      "course_id": {
+        "label": "Course ID",
+        "name": "course_id"
+      },
+      "dept_id": {
+        "label": "Dept ID",
+        "name": "dept_id"
+      },
+      "name": {
+        "label": "Name",
+        "name": "name"
+      }
+    },
+    "student": {
+      "erp": "input",
+      "course_id": "input",
+      "name": "input",
+      "roll_no": "input"
+    },
+    "student_data": {
+      "erp": {
+        "label": "ERP",
+        "name": "erp"
+      },
+      "course_id": {
+        "label": "Course ID",
+        "name": "course_id"
+      },
+      "name": {
+        "label": "Name",
+        "name": "name"
+      },
+      "roll_no": {
+        "label": "Roll No",
+        "name": "roll_no"
+      }
+    },
+    "attendance": {
+      "attendance_id": "input",
+      "erp": "input",
+      "course_id": "input",
+      "days_attended": "input"
+    },
+    "attendance_data": {
+      "attendance_id": {
+        "label": "Attendance ID",
+        "name": "attendance_id"
+      },
+      "erp": {
+        "label": "ERP",
+        "name": "erp"
+      },
+      "course_id": {
+        "label": "Course ID",
+        "name": "course_id"
+      },
+      "days_attended": {
+        "label": "Days Attended",
+        "name": "days_attended"
+      }
+    },
+    "fees": {
+      "transaction_id": "input",
+      "erp": "input",
+      "transaction_amount": "input"
+    },
+    "fees_data": {
+      "transaction_id": {
+        "label": "Transaction ID",
+        "name": "transaction_id"
+      },
+      "erp": {
+        "label": "ERP",
+        "name": "erp"
+      },
+      "transaction_amount": {
+        "label": "Transaction Amount",
+        "name": "transaction_amount"
+      }
+    },
+    "exam": {
+      "exam_id": "input",
+      "erp": "input",
+      "course_id": "input",
+      "marks": "input",
+      "exam_fee": "input",
+      "exam_type": "input"
+    },
+    "exam_data": {
+      "exam_id": {
+        "label": "Exam ID",
+        "name": "exam_id"
+      },
+      "erp": {
+        "label": "ERP",
+        "name": "erp"
+      },
+      "course_id": {
+        "label": "Course ID",
+        "name": "course_id"
+      },
+      "marks": {
+        "label": "Marks",
+        "name": "marks"
+      },
+      "exam_fee": {
+        "label": "Exam Fee",
+        "name": "exam_fee"
+      },
+      "exam_type": {
+        "label": "Exam Type",
+        "name": "exam_type"
+      }
+    }
+  }
+}

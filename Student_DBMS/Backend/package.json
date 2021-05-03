@@ -1,0 +1,37 @@
+{
+  "name": "university-management-system",
+  "version": "1.0.0",
+  "description": "University Management System For Both Student & Teacher",
+  "main": "./app/index.js",
+  "engines": { "node": "15.x" },
+  "scripts": {
+    "server": "node ./app/index.js",
+    "client": "npm start --prefix Frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "lint": "eslint \"src/**/*\"",
+    "prettier": "prettier --check src/**/*"
+  },
+  "author": "Oishik, Khuzema, Dhruv, Adarsh, Lakshita, Tanvi, Disha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khuzema786/University-Backend"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "jsdoc": "^3.6.5",
+    "mysql": "^2.18.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "eslint": "^7.8.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.1"
+  },
+  "private": true
+}

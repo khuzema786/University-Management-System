@@ -1,0 +1,10 @@
+{
+  "courses": ["course_id", "course_name", "sem", "year"],
+  "exam": ["exam_id", "erp", "course_id", "marks", "exam_fee", "exam_type"],
+  "users": ["erp", "password", "email_id"],
+  "department": ["dept_id", "dept_name"],
+  "attendance": ["attendance_id", "erp", "course_id", "days_attended"],
+  "fees": ["transaction_id", "erp", "transaction_amount"],
+  "faculty": ["erp", "course_id", "dept_id", "name"],
+  "student": ["erp", "course_id", "name", "roll_no"]
+}

@@ -1,0 +1,9 @@
+export { default as MenuIcon } from '@material-ui/icons/Menu';
+export { default as ChevronLeftIcon } from '@material-ui/icons/ChevronLeft';
+export { default as NotificationsIcon } from '@material-ui/icons/Notifications';
+export { default as PeopleOutlineTwoToneIcon } from '@material-ui/icons/PeopleOutlineTwoTone';
+export { default as Search } from '@material-ui/icons/Search';
+export { default as AddIcon } from '@material-ui/icons/Add';
+export { default as EditOutlinedIcon } from '@material-ui/icons/EditOutlined';
+export { default as CloseIcon } from '@material-ui/icons/Close';
+export { default as NotListedLocationIcon } from '@material-ui/icons/NotListedLocation';
